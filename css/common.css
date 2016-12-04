@@ -1,0 +1,436 @@
+/*******************header & navigation css start****************/
+header .navbar, #header .navbar-brand {
+    min-height: 70px;
+}
+
+#company-logo > img {
+    width: 272px;
+    height: 38px;
+}
+
+#main-menu > .navbar-nav {
+    margin-top: 10px;
+}
+
+#main-menu > ul > li:last-child {
+    border-right-width: 1px;
+    border-right-style: solid;
+    -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#dbdcde), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image: -o-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to top, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+#main-menu > ul > li {
+    border-left-width: 1px;
+    border-left-style: solid;
+    -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(#dbdcde), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: -webkit-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image: -moz-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image: -o-linear-gradient(bottom, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    border-image: linear-gradient(to top, #dbdcde, rgba(0, 0, 0, 0)) 1 100%;
+    list-style: none;
+    /*float: left;*/
+    color: #592C81;
+    font-size: 20px;
+}
+
+/*#main-menu > ul > li.active,#main-menu > ul > li.open{
+    background-color: #dbdcde;
+    border-radius: 10px 10px 0 0;
+}*/
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #dbdcde !important;
+    border-radius: 10px 10px 0 0;
+}
+
+#main-menu > ul > li.active a {
+    background-color: transparent;
+}
+
+#main-menu > ul > li > a {
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#main-menu li a > span {
+    display: block;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar-default {
+    background-color: #fff;
+    box-shadow: 0 8px 8px -8px #5B5B5B;
+    z-index: 20001;
+}
+
+.navbar-toggle {
+    margin-top: 19px
+}
+
+.dropdown-menu {
+    position: fixed;
+    top: 70px;
+    left: calc(50% - 570px) !important;
+    right: auto !important;
+    border-radius: 0 0 10px 10px;
+    background-color: #dbdcde;
+    padding: 0;
+    border-top: 0;
+}
+
+.sub-menu-container {
+    position: relative;
+    overflow: hidden;
+    cursor: auto;
+    /*width:1195px;*/
+}
+
+.sub-menu-container-left {
+    background-color: #592c81;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.sub-menu-container-right {
+    margin-top: 30px;
+}
+
+.sub-menu-container-right li {
+    list-style-type: none;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.sub-menu-container-right ul li a {
+    color: #799A3D;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sub-menu-container-right ul li span {
+    float: right;
+    top: 5px;
+    font-size: 20px;
+    color: #799A3D;
+}
+
+.sub-menu-container-right ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #799A3D;
+}
+
+.sub-menu-container-right ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-menu-container-right a, .sub-menu-container-right a:hover, .sub-menu-container-right a:visited {
+    text-decoration: none;
+    color: #799A3D;
+}
+
+.revenue-small {
+    display: none;
+}
+
+.revenue {
+    background-color: #799A3D;
+    font-size: 18px;
+    padding: 10px;
+    height: 56px;
+    color: #fff;
+}
+
+.revenue:hover, .revenue:focus, .revenue:visited {
+    background-color: #799A3D;
+    color: #fff;
+}
+
+/*******************header & navigation css end****************/
+
+main {
+    margin-top: 70px;
+}
+
+/*******************general css start**************************/
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+/*******************general css end **************************/
+
+/****************** career title and Image CSS start *********/
+.overlay {
+    position: absolute;
+    background-color: rgba(89, 44, 129, 0.7);
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.overlay > div > h1 {
+    font-size: 50px;
+    margin: 40px 50px 20px 0;
+}
+
+.overlay > div > h3 {
+    font-size: 17px;
+    margin: 0 0 30px 0;
+}
+
+#career-at-athena {
+    max-height: 500px;
+}
+
+.view-job-opening {
+    position: absolute;
+    top: 290px;
+    left: 10%;
+}
+
+/****************** career title and Image CSS end *********/
+
+/***************** athenistas css start*************/
+#athenistas-container {
+    margin: 0 auto;
+    max-width: 1268px;
+}
+
+.athenistas-field {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.athenistas-heading {
+    font-family: 'Economica', Arial, sans-serif;
+    font-size: 45px;
+    color: #799A3D;
+}
+
+.parent-holder {
+    margin: 0 2px 2px 0;
+    height: 215px;
+    position: relative;
+    width: 315px;
+    background-color: #fff;
+    display: block;
+    color: #fff;
+    float: left;
+}
+
+.hover-div {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(121, 155, 62, 0.7);
+    display: none;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+}
+
+.hover-div > div {
+    margin: auto;
+    display: table;
+    text-align: left;
+}
+
+.watch-video {
+    width: 218px;
+}
+
+.watch-video > span {
+    position: relative;
+    z-index: 1;
+}
+
+.watch-video > div > span {
+    padding: 25px;
+}
+
+.watch-video > div {
+    margin-left: 60px;
+    margin-top: -65px;
+    background-color: #1b5630;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    padding: 15px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+/***************** athenistas CSS end *************/
+
+/**********************Footer*********************/
+footer {
+    background-color: #3C1052;
+    background: -webkit-linear-gradient(top, #592C81 0%, #3C1052 100%);
+    background: linear-gradient(to bottom, #592C81 0%, #3C1052 100%);
+    background: -webkit-linear-gradient(to bottom, #592C81 0%, #3C1052 100%);
+    height: 100%;
+    margin: 50px auto auto;
+    color: #fff;;
+}
+
+.footer-left div {
+    color: #9572ac;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 20px 0 0 0;
+    margin-bottom: 4px;
+}
+
+.footer-left ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 0 5px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right img {
+    max-height: 63px;
+    max-width: 300px;
+    margin: 15px;
+}
+
+/***************Footer css end*****************/
+.glyphicon-chevron-down {
+    display: none !important;
+}
+
+/*************Media classes starts*******************/
+@media (max-width: 500px) {
+    .footer-left div {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-left, .footer-right {
+        text-align: center;
+    }
+
+    .glyphicon-chevron-down {
+        display: inline !important;
+        float: right;
+        font-size: 18px;
+        color: #999;
+    }
+
+    #main-menu > ul > li > a {
+        border-bottom: 1px solid #ddd;
+        color: #592C81;
+        font-size: 20px;
+    }
+
+    .sub-menu-container-left {
+        display: none;
+    }
+
+    .sub-menu-container-right {
+        width: 100%;
+    }
+
+    .overlay > div > h1 {
+        font-size: 25px;
+        margin: 20px 30px 20px 30px;
+    }
+
+    .overlay > div > h3 {
+        font-size: 13px;
+        margin: 0 30px 15px;
+    }
+
+    .athenistas-heading {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    #main-menu li a > span {
+        display: inline;
+    }
+}
+
+@media (max-width: 990px) {
+    #main-menu ul li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1157px) {
+    .sub-menu-container-right ul li a {
+        font-size: 12px;
+    }
+
+    .sub-menu-container-right ul {
+        padding-left: 0;
+    }
+
+    .revenue {
+        height: auto;
+        font-size: 15px;
+    }
+
+    .dropdown-menu {
+        left: calc(50% - 338px) !important;
+    }
+
+    .sub-menu-container-left {
+        padding: 0 0 5px 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1285px) {
+    #athenistas-container {
+        max-width: 951px;
+    }
+
+}
+
+@media (max-width: 970px) {
+    #athenistas-container {
+        max-width: 634px;
+    }
+
+}
+
+@media (max-width: 651px) {
+    #athenistas-container {
+        max-width: 317px;
+    }
+}
+
+/*************Media classes ends*******************/
+
+
+
